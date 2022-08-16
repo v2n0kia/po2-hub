@@ -1141,7 +1141,7 @@ Tab1:Button("Fps زيادة",function()
     end
 end)
 
-Tab1:Button("translation to Araibc",function()
+Tab1:Button("translation to English",function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/nn0kia/N0kia-script/main/Arab%20fight%20hub')))()
 end)
 
