@@ -55,7 +55,6 @@ Text = "التفعيل تم";
 })
 end)
 
-
 Tab1:Button("لوك كام ) Q )",function()
     getgenv().AimPart = "HumanoidRootPart"
 	getgenv().AimlockKey = "q"
