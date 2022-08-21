@@ -1,3 +1,4 @@
+
 local webhookcheck =
     is_sirhurt_closure and "Aureus x" or 
     pebc_execute and "Aureus x" or 
@@ -244,6 +245,94 @@ end)
 
 Tab1:Slider("Field Of View / الرؤية مجال",70,120,70,function(ss)
 	workspace.CurrentCamera.FieldOfView  = ss
+end)
+
+Tab1 = Library:Tab("شخصيات")
+
+Tab1:Seperator("اولاد")
+
+Tab1:Button("1 ولد سكن اختيار",function()
+	local args = {
+		[1] = ";char me bll4r"
+	}
+	
+	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+	
+end)
+
+Tab1:Button("2 ولد سكن اختيار",function()
+	local args = {
+		[1] = ";char me SoloDaHood"
+	}
+	
+	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+end)
+
+Tab1:Button("3 ولد سكن اختيار",function()
+	local args = {
+		[1] = ";char me T3MYAH"
+	}
+	
+	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+end)
+
+Tab1:Button("4 ولد سكن اختيار",function()
+	local args = {
+		[1] = ";char me KXXDEY"
+	}
+	
+	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+end)
+
+Tab1:Button("5 ولد سكن اختيار",function()
+	local args = {
+		[1] = ";char me stayasleep"
+	}
+	
+	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+end)
+
+
+Tab1:Seperator("بنات")
+
+Tab1:Button("1 بنت سكن اختيار",function()
+	local args = {
+		[1] = ";char me r3cvery"
+	}
+	
+	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+end)
+
+Tab1:Button("2 بنت سكن اختيار",function()
+	local args = {
+		[1] = ";char me WZOENA"
+	}
+	
+	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+end)
+
+Tab1:Button("3 بنت سكن اختيار",function()
+	local args = {
+		[1] = ";char me 1c7y"
+	}
+	
+	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+end)
+
+Tab1:Button("4 بنت سكن اختيار",function()
+	local args = {
+		[1] = ";char me Artica_SnowPaw"
+	}
+	
+	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+end)
+
+Tab1:Button("5 بنت سكن اختيار",function()
+	local args = {
+		[1] = ";char me 1Evg1"
+	}
+	
+	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
 end)
 
 Tab1 = Library:Tab("الراديو")
@@ -697,6 +786,10 @@ Tab1 = Library:Tab("لذيذة سكربتات")
 Tab1:Button("سكربت بانق / R6 / R15" ,function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/manimcool21/bang/main/Protected%20(27).lua'))()
 end)
+
+Tab1:Button("يللد انفنتي" ,function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/manimcool21/bang/main/Protected%20(27).lua'))()
+	end)
 
 Tab1:Button("XESTER" ,function()
 	
