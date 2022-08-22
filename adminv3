@@ -810,7 +810,7 @@ Tab1:Button("V1 تخريب" ,function()
 	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
 	wait(2)
 	local args = {
-		[1] = ";size me 4"
+		[1] = ";size me 2.6"
 	}
 	
 	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
