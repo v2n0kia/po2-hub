@@ -841,6 +841,18 @@ Tab1:Button("V2 تخريب" ,function()
 	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
 	wait(1)
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Leg%20Resize'))()
+		wait(2)
+	local args = {
+		[1] = ";neon me"
+	}
+	
+	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
+		wait(0.1)
+	local args = {
+		[1] = ";color me white"
+	}
+	
+	game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand:InvokeServer(unpack(args))
 end)
 
 Tab1:Button("V3 تخريب" ,function()
