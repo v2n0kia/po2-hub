@@ -1,4 +1,3 @@
-
 local webhookcheck =
     is_sirhurt_closure and "Aureus x" or 
     pebc_execute and "Aureus x" or 
@@ -81,7 +80,6 @@ end)
 Tab1:Button("تستمتعو انشاءالله",function()
     
 end)
-
 
 Tab1:Seperator("الاعب")
 
