@@ -60,7 +60,7 @@ local webhookcheck =
 -- Script
 local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
 
-local Library = DarkraiX:Window("Po2_z Hub","مجاني بي اي في اولاد و بنات","n0kia#1734",Enum.KeyCode.RightControl);
+local Library = DarkraiX:Window("Po2_z Hub","مجاني بي اي في اولاد و بنات | by n0ia#k1734","n0kia#1734",Enum.KeyCode.RightControl);
 
 Tab1 = Library:Tab("الرئيسية")
 
